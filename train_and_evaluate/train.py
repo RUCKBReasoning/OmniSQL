@@ -61,7 +61,7 @@ def sanity_check(input, target, tokenizer):
 
 def checkpoint_model(accelerator, model, tokenizer, output_ckpt_dir, last_global_step):    
     '''
-    Utility fuction for only checkpointing the model dictionary (i.e., only model parameters)
+    Utility function for only checkpointing the model dictionary (i.e., only model parameters)
     '''
     ckpt_path = os.path.join(output_ckpt_dir, "ckpt-{}".format(last_global_step))
     accelerator.print("checkpointing model state dict at {}".format(ckpt_path))
