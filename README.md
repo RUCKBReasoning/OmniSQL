@@ -44,7 +44,7 @@ We evaluate OmniSQL on a wide range of datasets, including standard benchmarks (
   <img src="assets/main_results.png" alt="Description" style="width: 100%; max-width: 800px;"/>
 </p>
 
-"Gre" refers to greedy decoding, and "Maj" indicates major voting at 8. Spider (dev), Spider-Syn, and Spider-Realistic are evaluated using the test-suite accuracy (TS) metric, while the remaining datasets are evaluated using the execution accuracy (EX) metric.
+"Gre" refers to greedy decoding, and "Maj" indicates major voting at 8. Spider-Syn, and Spider-Realistic are evaluated using the test-suite accuracy (TS) metric, while the remaining datasets are evaluated using the execution accuracy (EX) metric.
 
 OmniSQL significantly outperforms baseline LLMs of similar scale and even surpasses leading models like GPT-4o and DeepSeek-V3 on many datasets.
 
